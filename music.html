@@ -2,8 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="shortcut icon" href="https://huashijituan.coding.net/p/liuzhierzhong/d/liuzhierzhong/git/raw/pages/Mutruc.svg?download=false">
-<title>音乐播放器</title>
+<title>Mutruc | Records</title>
 <style>
 #music {
 	width: 500px;
@@ -39,9 +38,9 @@
 <body>
 <div id="music">
 	<div id="container">
-		<h3 id="musicName">音乐播放器</h3>
-		<img src="https://huashijituan.coding.net/p/liuzhierzhong/d/liuzhierzhong/git/raw/pages/1.jpg?download=false" id="musicImg">
-		<audio src="https://huashijituan.coding.net/p/liuzhierzhong/d/liuzhierzhong/git/raw/pages/1.mp3?download=false" controls id="audio">low browsers not support</audio>
+		<h3 id="musicName">Mutruc-Records</h3>
+		<img src="https://huashijituan.coding.net/p/liuzhierzhong/d/liuzhierzhong/git/raw/pages/1.jpg" id="musicImg">
+		<audio src="https://huashijituan.coding.net/p/liuzhierzhong/d/liuzhierzhong/git/raw/pages/1.mp3" controls id="audio">low browsers not support</audio>
 		<div class="btn">
 			<button id="play">开始</button>
 			<button id="pause">暂停</button>
@@ -75,10 +74,10 @@ prev.onclick = function(){
 		num=4;
 		}
 	
-	audio.src = 'https://huashijituan.coding.net/p/liuzhierzhong/d/liuzhierzhong/git/raw/pages/' + num + '.mp3?download=false';
+	audio.src = 'https://huashijituan.coding.net/p/liuzhierzhong/d/liuzhierzhong/git/raw/pages/' + num + '.mp3';
  
-	bgImage.style.backgroundImage = 'url(https://huashijituan.coding.net/p/liuzhierzhong/d/liuzhierzhong/git/raw/pages/' + num + '.jpg?download=false)';
-	musicImg.src = 'https://huashijituan.coding.net/p/liuzhierzhong/d/liuzhierzhong/git/raw/pages/' + num + '.jpg?download=false';
+	bgImage.style.backgroundImage = 'url(https://huashijituan.coding.net/p/liuzhierzhong/d/liuzhierzhong/git/raw/pages/' + num + '.jpg)';
+	musicImg.src = 'https://huashijituan.coding.net/p/liuzhierzhong/d/liuzhierzhong/git/raw/pages/' + num + '.jpg';
 	audio.play();
 }
  
@@ -90,10 +89,10 @@ next.onclick = function(){
 	else{
 		num=1;
 		}
-	audio.src = 'https://huashijituan.coding.net/p/liuzhierzhong/d/liuzhierzhong/git/raw/pages/' + num + '.mp3?download=false';
+	audio.src = 'https://huashijituan.coding.net/p/liuzhierzhong/d/liuzhierzhong/git/raw/pages/' + num + '.mp3';
 	
-	bgImage.style.backgroundImage = 'url('https://huashijituan.coding.net/p/liuzhierzhong/d/liuzhierzhong/git/raw/pages/' + num + '.jpg?download=false)';
-	musicImg.src = 'https://huashijituan.coding.net/p/liuzhierzhong/d/liuzhierzhong/git/raw/pages/' + num+ '.jpg?download=false';
+	bgImage.style.backgroundImage = 'url(https://huashijituan.coding.net/p/liuzhierzhong/d/liuzhierzhong/git/raw/pages/' + num + '.jpg)';
+	musicImg.src = 'https://huashijituan.coding.net/p/liuzhierzhong/d/liuzhierzhong/git/raw/pages/' + num+ '.jpg';
 	audio.play();
  
 }
