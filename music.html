@@ -65,14 +65,14 @@ pause.onclick = function(){
 	}
 }
 var num=1;
-var len=10
+var len=7
 var bgImage = document.getElementById("musicImg");
 prev.onclick = function(){
 	if(num>1){
 		num = num - 1;
 		}
 	else{
-		num=10;
+		num=7;
 		}
 	
 	audio.src = 'https://huashijituan.coding.net/p/liuzhierzhong/d/liuzhierzhong/git/raw/music/' + num + '.mp3';
@@ -84,7 +84,7 @@ prev.onclick = function(){
  
 // 下一首
 next.onclick = function(){
-	if(num<10){
+	if(num<7){
 		num = num + 1;
 		}
 	else{
