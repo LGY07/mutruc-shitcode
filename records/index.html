@@ -5,6 +5,7 @@
 <link rel="shortcut icon" href="https://huashijituan.coding.net/p/liuzhierzhong/d/liuzhierzhong/git/raw/pages/Mutruc.svg?download=false">
 <title>Mutruc | Records</title>
 <style>
+body{ text-align:center} 
 #music {
 	width: 500px;
 	height: 500px;
@@ -33,6 +34,38 @@
 	margin: auto;
 	border-radius:50%;
 	}
+#play {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    font-family:Cascadia Code;
+}
+#pause {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    font-family:Cascadia Code;
+}
+#prev {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    font-family:Cascadia Code;
+}
+#next {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    font-family:Cascadia Code;
+}
 </style>
 </head>
  
@@ -42,13 +75,13 @@
 		<h3 id="musicName">Mutruc-Records</h3>
 		<img src="https://huashijituan.coding.net/p/liuzhierzhong/d/liuzhierzhong/git/raw/pages/1.jpg" id="musicImg">
 		<audio src="https://huashijituan.coding.net/p/liuzhierzhong/d/liuzhierzhong/git/raw/pages/1.mp3" controls id="audio">low browsers not support</audio>
-		<div class="btn">
-			<button id="play">开始</button>
-			<button id="pause">暂停</button>
-			<button id="prev">上一首</button>
-			<button id="next">下一首</button>
-		</div>
 	</div>
+</div>
+<div id="btn">
+	<button id="play">PLAY</button>
+	<button id="pause">PAUSE</button>
+	<button id="prev">PREV</button>
+	<button id="next">NEXT</button>
 </div>
 <script>
 // 播放
